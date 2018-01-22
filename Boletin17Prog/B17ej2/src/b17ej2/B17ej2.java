@@ -16,7 +16,7 @@ public class B17ej2 {
      */
     public static void main(String[] args) {
         
-        int alumnos[] = new int[5];
+        int alumnos[] = new int[30];
         
         Notas objNotas = new Notas();
         
