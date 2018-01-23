@@ -5,6 +5,8 @@
  */
 package b17ej4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author quique
@@ -17,8 +19,8 @@ public class B17ej4 {
     public static void main(String[] args) {
 
         CalcularDNI dnii = new CalcularDNI();
-        
-        dnii.calculaLetra(35575877);
+        Scanner sc = new Scanner(System.in);
+        dnii.calculaLetra(sc.nextInt());
 
 }
 }
