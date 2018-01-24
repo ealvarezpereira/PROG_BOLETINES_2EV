@@ -20,6 +20,7 @@ public class B17ej4 {
 
         CalcularDNI dnii = new CalcularDNI();
         Scanner sc = new Scanner(System.in);
+        System.out.println("Introduzca DNI");
         dnii.calculaLetra(sc.nextInt());
 
 }
