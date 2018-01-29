@@ -16,10 +16,9 @@ public class B17ej3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] notalumnos = new int[5];
+        int[] notalumnos = new int[30];
 
-        String
-                [] alumnos = new String[5];
+        String[] alumnos = new String[30];
         Alumnos objAlumnos = new Alumnos();
 
         //Insertar nombres y notas
