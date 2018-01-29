@@ -136,11 +136,9 @@ public class Alumnos {
                     not[i] = not[j];
                     not[j] = aux;
                     
-                    for(int k = 0; k<not.length;k++){
                     stringAux = nom[i];
                     nom[i] = nom[j];
                     nom[j] = stringAux;
-                    }
                 }
 
             }
